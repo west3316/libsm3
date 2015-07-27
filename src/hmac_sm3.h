@@ -12,7 +12,7 @@ extern "C" {
 
 typedef struct {
 	sm3_ctx_t sm3_ctx;
-	unsigned char key[SM3_DIGEST_LENGTH];
+	unsigned char key[SM3_BLOCK_SIZE];
 } hmac_sm3_ctx_t;
 
 
